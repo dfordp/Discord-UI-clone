@@ -6,7 +6,7 @@ const topics =['tailwind-css','react']
 const questions=['Jit-compilation', 'purge-files' , 'dark-mode']
 const random=['variants','plugins']
 
-const ChannelBar =()=>{
+export const Channelbar =()=>{
     return(
         <div className="channel-bar shadow-lg">
             <ChannelBlock />
@@ -64,7 +64,3 @@ const ChevronIcon = ({ expanded }) => {
   
 
 
-
-
-
-export default ChannelBar
